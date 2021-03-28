@@ -1,39 +1,20 @@
-// import React from 'react';
+// import React, {useState} from 'react';
 
 
-// class List  extends React.Component{
-//     state ={
-//         inputValue: "",
-//         rows :[]
-//     }
-//     handleClick () {
-//         var rows =this.state.rows;
-//         rows.push(this.state.inputValue);
-//         this.setState({
-//             rows :rows
-//         })
-//     }
-//     handlechange(){
-//        this.setState({
-//            rows :this.state.rows
-//        }) 
-//     }
-       
-      
-//     render(){
+// function List(){
+//     const [todo,setTodo] = useState([item1,item2]);
 //         return(
 //             <div>
+//                 < TodoList  todos={todo}/>
 //                 <input type="text" id="input" value={this.state.inputValue} onChange={this.handleChange()}/>
 //                 <input
 //                 type="button"
-//                 value="Alert the text input"
-//                 onClick={this.handleClick()}
+//                 value="Add to List"
 //                 />
                 
-//             </div>
-        
+//             </div>       
 
 //         )
-//     };
+
 // }
 // export default List;

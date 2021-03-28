@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 import Cards from './cards'
-// import List from './components/toDoList/List'
+import DynamicTable from './components/toDoList/DynamicTable';
 
 class App extends React.Component{
-  render(){
+    render(){
     return(
-       <>
-        <Cards />
-        {/* <List /> */}
+       <>       
+        <Cards /> 
+        <DynamicTable />
       </>
     );
 
